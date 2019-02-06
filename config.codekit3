@@ -23,6 +23,13 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/.nojekyll": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.nojekyll",
+		"oF": 0
+		},
 	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -337,6 +344,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/imgs/Evergreen_Calendar.jpg": {
+		"ft": 16384,
+		"iS": 93752,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/imgs/Evergreen_Calendar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/imgs/evergreensearch.jpg": {
