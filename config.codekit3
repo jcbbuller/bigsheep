@@ -30,13 +30,6 @@
 		"oAP": "/.nojekyll",
 		"oF": 0
 		},
-	"/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/about.html",
-		"oF": 0
-		},
 	"/css/bootstrap-grid.css": {
 		"aP": 1,
 		"bl": 0,
@@ -56,6 +49,13 @@
 		"oAP": "/css/bootstrap-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/evergreencemetery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/evergreencemetery.html",
+		"oF": 0
 		},
 	"/fonts/glyphicons-halflings-regular.eot": {
 		"cB": 0,
@@ -139,15 +139,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/imgs/Background.jpg": {
-		"ft": 16384,
-		"iS": 124419,
-		"jF": 0,
+	"/imgs/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 8160,
 		"oA": 0,
-		"oAP": "/imgs/Background.jpg",
+		"oAP": "/imgs/android-icon-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/imgs/beer.png": {
@@ -346,6 +346,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/imgs/evergreen_bg.jpg": {
+		"ft": 16384,
+		"iS": 124419,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/imgs/evergreen_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/imgs/Evergreen_Calendar.jpg": {
 		"ft": 16384,
 		"iS": 93752,
@@ -354,7 +365,18 @@
 		"oAP": "/imgs/Evergreen_Calendar.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/imgs/evergreen_volunteer.jpg": {
+		"ft": 16384,
+		"iS": 2082466,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/imgs/evergreen_volunteer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/imgs/evergreensearch.jpg": {
@@ -384,6 +406,39 @@
 		"iS": 14320,
 		"oA": 0,
 		"oAP": "/imgs/example2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1257,
+		"oA": 0,
+		"oAP": "/imgs/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1803,
+		"oA": 0,
+		"oAP": "/imgs/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 3661,
+		"oA": 0,
+		"oAP": "/imgs/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -550,12 +605,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/imgs/LegalOutreach_Portfolio_Header.jpg": {
+	"/imgs/legaloutreach_bg.jpg": {
 		"ft": 16384,
 		"iS": 104887,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/imgs/LegalOutreach_Portfolio_Header.jpg",
+		"oAP": "/imgs/legaloutreach_bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -33199,13 +33254,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"/project.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/project.html",
-		"oF": 0
 		},
 	"/projects.html": {
 		"cB": 0,

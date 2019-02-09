@@ -4,12 +4,20 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width">
-	<title>Responsive Auto-height - fullPage.js</title>
+	<title>Big Sheep Design Co.</title>
 	<meta name="author" content="Alvaro Trigo Lopez" />
 	<meta name="description" content="fullPage full-screen navigation and sections control menu." />
 	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,navigation,control arrows, dots" />
 	<meta name="Resource-type" content="Document" />
 
+<!-- Favicon --->
+
+<link rel="icon" type="image/png" sizes="192x192"  href="imgs/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+
+<!-- End Favicon -->
 
 	<link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="styles.css"/>
@@ -28,40 +36,35 @@
 
 	</head>
 	<body>
-		<div id="home" class="wrapper">
+		<div class="wrapper dark-nav">
+			<div class="animsition">
 
+		<!-- START LOGO -->
+		<div id="logo-container">
+						<a href="index.html"><img class="svg logo-image" style="width:100%; height:auto;" src="imgs/logo-01.svg" alt="Jacob Buller"></a>
+		</div>
+		<!-- END LOGO -->
+
+		<!-- NAVIGATION -->
 		<div class="button_container" id="toggle">
 		  <span class="top"></span>
 		  <span class="middle"></span>
 		  <span class="bottom"></span>
 		</div>
-
-		<div class="animsition">
-		<div id="logo-container">
-						<a href="#"><img class="svg logo-image" style="width:100%; height:auto;" src="imgs/logo-01.svg" alt="Jacob Buller"></a>
-		</div>
-
-			<div class="overlay" id="overlay">
-				<div id="logo-container">
-							<img class="svg menu-logo-image" style="width:100%; height:auto;" src="imgs/logo-01.svg" alt="Jacob Buller">
-				</div>
-				<nav class="overlay-menu">
-					<ul id="menu-items">
-						<li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
-						<li data-menuanchor="secondPage"><a href="#secondPage">Out Skills</a></li>
-						<li data-menuanchor="secondPage"><a href="#secondPage">Our Projects</a></li>
-						<li data-menuanchor="thirdPage"><a href="#thirdPage">Contact Us</a></li>
-					</ul>
-				</nav>
-
+		<div class="overlay" id="overlay">
+			<div id="logo-container">
+						<img class="svg menu-logo-image" style="width:100%; height:auto;" src="imgs/logo-01.svg" alt="Jacob Buller">
 			</div>
-<!--<div class="navigation">
-		            <ul id="menu">
-									<li data-menuanchor="firstPage" class="active"><a href="#firstPage">About Me</a></li>
-									<li data-menuanchor="secondPage"><a href="#secondPage">Projects</a></li>
-									<li  data-menuanchor="3rdPage"><a href="#3rdPage">Contact</a></li>
-		            </ul>
-							</div>-->
+			<nav class="overlay-menu">
+				<ul id="menu-items">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="skills.html">Skills</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href=""><i class="mail fab fa-telegram-plane"></i></a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- END NAVIGATION -->
 
 
 		<div class="color-highlight-wrapper">
@@ -114,7 +117,7 @@
 										<h3>Logo & Site Design</h3>
 										<h2>Evergreen</br>Restoration Fund</h2>
 										<p>We build an online resource for volunteers and donors of the Evergreen Cemetery reclamation project, a historical African Amercian cemetery outside of Richmond, Virginia.</p>
-										<a class="text-left" href="projects.html">Read More <span class="fa fa-arrow-right"></span></a>
+										<a class="text-left" href="evergreencemetery.html">Read More <span class="fa fa-arrow-right"></span></a>
 									 </div>
 									</div>
 								</div>
@@ -132,7 +135,7 @@
 								<h3>Logo Revamp & Site Reskin</h3>
 								<h2>Legal Outreach</h2>
 								<p>We build an online resource for volunteers and donors of the Evergreen Cemetery reclamation project, a historical African Amercian cemetery outside of Richmond, Virginia.</p>
-								<a class="text-left" href="projects.html">Read More <span class="fa fa-arrow-right"></span></a>
+								<a class="text-left" href="legaloutreach.html">Read More <span class="fa fa-arrow-right"></span></a>
 							 </div>
 							</div>
 						</div>
@@ -144,12 +147,12 @@
 				<div class="col-md-10 offset-md-1 offset-sm-0">
 					<section id="contact" class="color-highlight-section" data-background-color="transparent">
 						<a href="#"><i class="mail fab fa-telegram-plane"></i></a>
-						<h3>Want make awesome things? <br><a href="#">Let us a know</a> how we can help.</h3>
+						<h3>Want to make awesome things? <br><a href="#">Let us know</a> how we can help.</h3>
 					</section>
 				</div>
 
-						<!-- Grid row -->
-						<div id="footer-bottom" class="col-md-10 offset-md-1 offset-sm-0">
+				<!-- Grid row -->
+				<div id="footer-bottom" class="col-md-10 offset-md-1 offset-sm-0">
 
 					<div class="row">
 						<div class="col-md-4 col-sm-4 col-xs-6">
@@ -276,6 +279,17 @@
 				}
 			});
 
+			/*! Fades out the whole page when clicking links */
+			$('a').click(function(e) {
+			e.preventDefault();
+			newLocation = this.href;
+			$('body').fadeOut('slow', newpage);
+			});
+			function newpage() {
+			window.location = newLocation;
+			}
+
+
 			/*
 			 * Replace all SVG images with inline SVG
 			 */
@@ -315,7 +329,7 @@
 
 			$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
-			var backstretch_height = $('#main-project-image').height();
+			var backstretch_height = $('.project-header-img').height();
 			if (scroll >= backstretch_height) {
 					$("#toggle").addClass("dark");
 			} else {
@@ -324,7 +338,7 @@
 			});
 
 			// BACKSTRETCHER FOR PROJECT PAGE HEADERS
-			$("#main-project-image").backstretch("imgs/brendan-church-637595-unsplash.jpg",{speed: 600});
+			$(".project-header-img").backstretch("imgs/brendan-church-637595-unsplash.jpg",{speed: 600});
 
 		});
 
