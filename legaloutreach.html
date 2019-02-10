@@ -305,7 +305,7 @@
 			});
 
 			/*! Fades out the whole page when clicking links */
-			$('a').click(function(e) {
+			$('a.x-link').click(function(e) {
 			e.preventDefault();
 			newLocation = this.href;
 			$('body').fadeOut('fast', newpage);
