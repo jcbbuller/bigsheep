@@ -235,15 +235,40 @@
 	<!--<script type="text/javascript" src=""></script>-->
 	<script type="text/javascript">
 
+		// Animsition page fade in
+		$(".animsition").animsition({
+			 inClass: 'fade-in',
+			 outClass: 'fade-out',
+			 inDuration: 1500,
+			 outDuration: 800,
+			 linkElement: '.animsition-link',
+			 // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+			 loading: true,
+			 loadingParentElement: 'body', //animsition wrapper element
+			 loadingClass: 'animsition-loading',
+			 loadingInner: '', // e.g '<img src="loading.svg" />'
+			 timeout: false,
+			 timeoutCountdown: 5000,
+			 onLoadEvent: true,
+			 browser: [ 'animation-duration', '-webkit-animation-duration'],
+			 // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+			 // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+			 overlay : false,
+			 overlayClass : 'animsition-overlay-slide',
+			 overlayParentElement : 'body',
+			 transition: function(url){ window.location.href = url; }
+		 });
+
+
 		$(document).ready(function() {
 
 			$(window).scroll( function() {
-					if( $(this).scrollTop() > 0 ) {
-							$("#logo-container").fadeOut("slow");
-					}
-					else {
-							$("#logo-container").fadeIn("slow");
-					}
+			    if( $(this).scrollTop() > 0 ) {
+			        $("#logo-container").fadeOut("slow");
+			    }
+			    else {
+			        $("#logo-container").fadeIn("slow");
+			    }
 			});
 
 
@@ -262,30 +287,6 @@
 			// Customizing a reveal set
 			sr.reveal('.reveal', { duration: 1000, distance: '200px', scale: 1, reset: false });
 
-
-			// Animsition page fade in
-			$(".animsition").animsition({
-				 inClass: 'fade-in',
-				 outClass: 'fade-out',
-				 inDuration: 1500,
-				 outDuration: 800,
-				 linkElement: '.animsition-link',
-				 // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-				 loading: true,
-				 loadingParentElement: 'body', //animsition wrapper element
-				 loadingClass: 'animsition-loading',
-				 loadingInner: '', // e.g '<img src="loading.svg" />'
-				 timeout: false,
-				 timeoutCountdown: 5000,
-				 onLoadEvent: true,
-				 browser: [ 'animation-duration', '-webkit-animation-duration'],
-				 // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-				 // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-				 overlay : false,
-				 overlayClass : 'animsition-overlay-slide',
-				 overlayParentElement : 'body',
-				 transition: function(url){ window.location.href = url; }
-			 });
 
 	 $('#toggle').click(function() {
 			 $(this).toggleClass('active');
@@ -313,6 +314,7 @@
 		//	function newpage() {
 		//	window.location = newLocation;
 		//	}
+
 
 			/*
 			 * Replace all SVG images with inline SVG
@@ -362,7 +364,7 @@
 			});
 
 			// BACKSTRETCHER FOR PROJECT PAGE HEADERS
-			$(".project-header-img").backstretch("imgs/legaloutreach_bg.jpg",{speed: 300});
+			$(".project-header-img").backstretch("imgs/brendan-church-637595-unsplash.jpg",{speed: 600});
 
 		});
 
