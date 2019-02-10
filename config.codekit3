@@ -95,50 +95,6 @@
 		"oAP": "/fonts/glyphicons-halflings-regular.woff2",
 		"oF": 0
 		},
-	"/imgs/1.png": {
-		"ft": 32768,
-		"iS": 5237,
-		"oA": 0,
-		"oAP": "/imgs/1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/2.png": {
-		"ft": 32768,
-		"iS": 6137,
-		"oA": 0,
-		"oAP": "/imgs/2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/3.png": {
-		"ft": 32768,
-		"iS": 6507,
-		"oA": 0,
-		"oAP": "/imgs/3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/about_me_pic.png": {
-		"ft": 32768,
-		"iS": 190557,
-		"oA": 0,
-		"oAP": "/imgs/about_me_pic.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/imgs/android-icon-192x192.png": {
 		"ft": 32768,
 		"iS": 8160,
@@ -150,105 +106,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/imgs/beer.png": {
-		"ft": 32768,
-		"iS": 499967,
-		"oA": 0,
-		"oAP": "/imgs/beer.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/benches.jpg": {
-		"ft": 16384,
-		"iS": 82015,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/benches.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/bg1.jpg": {
-		"ft": 16384,
-		"iS": 628788,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/bg1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/bg2.jpg": {
-		"ft": 16384,
-		"iS": 361526,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/bg2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/bg3.jpg": {
-		"ft": 16384,
-		"iS": 378628,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/bg3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/bg4.jpg": {
-		"ft": 16384,
-		"iS": 581728,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/bg4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/bg5.jpg": {
-		"ft": 16384,
-		"iS": 255954,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/bg5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/brendan-church-637595-unsplash.jpg": {
-		"ft": 16384,
-		"iS": 3155470,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/brendan-church-637595-unsplash.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/bridge.jpg": {
-		"ft": 16384,
-		"iS": 62244,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/bridge.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/imgs/build.gif": {
 		"ft": 4194304,
 		"iS": 762832,
@@ -257,32 +114,6 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"/imgs/coast.jpg": {
-		"ft": 16384,
-		"iS": 90531,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/coast.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/compatible.gif": {
-		"ft": 4194304,
-		"iS": 3681,
-		"oA": 0,
-		"oAP": "/imgs/compatible.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/imgs/copyright.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/imgs/copyright.txt",
-		"oF": 0
-		},
 	"/imgs/dive.gif": {
 		"ft": 4194304,
 		"iS": 1669929,
@@ -290,61 +121,6 @@
 		"oAP": "/imgs/dive.gif",
 		"oF": 0,
 		"opt": 1
-		},
-	"/imgs/EarthEye.png": {
-		"ft": 32768,
-		"iS": 121485,
-		"oA": 0,
-		"oAP": "/imgs/EarthEye.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/en-language-inactive.png": {
-		"ft": 32768,
-		"iS": 536,
-		"oA": 0,
-		"oAP": "/imgs/en-language-inactive.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/en-language.png": {
-		"ft": 32768,
-		"iS": 3903,
-		"oA": 0,
-		"oAP": "/imgs/en-language.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/es-language-inactive.png": {
-		"ft": 32768,
-		"iS": 3972,
-		"oA": 0,
-		"oAP": "/imgs/es-language-inactive.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/es-language.png": {
-		"ft": 32768,
-		"iS": 609,
-		"oA": 0,
-		"oAP": "/imgs/es-language.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/imgs/evergreen_bg.jpg": {
 		"ft": 16384,
@@ -368,6 +144,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/imgs/evergreen_search.jpg": {
+		"ft": 16384,
+		"iS": 105510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/imgs/evergreen_search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/imgs/evergreen_volunteer.jpg": {
 		"ft": 16384,
 		"iS": 2082466,
@@ -379,36 +166,14 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/imgs/evergreensearch.jpg": {
-		"ft": 16384,
-		"iS": 105510,
-		"jF": 0,
+	"/imgs/evergreencemetery.png": {
+		"ft": 32768,
+		"iS": 499967,
 		"oA": 0,
-		"oAP": "/imgs/evergreensearch.jpg",
+		"oAP": "/imgs/evergreencemetery.png",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
-		"q": 100
-		},
-	"/imgs/example.png": {
-		"ft": 32768,
-		"iS": 15627,
-		"oA": 0,
-		"oAP": "/imgs/example.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/example2.png": {
-		"ft": 32768,
-		"iS": 14320,
-		"oA": 0,
-		"oAP": "/imgs/example2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -445,155 +210,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/imgs/flowers.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/imgs/flowers.mp4",
-		"oF": 0
-		},
-	"/imgs/flowers.webm": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/imgs/flowers.webm",
-		"oF": 0
-		},
-	"/imgs/fullPage.png": {
-		"ft": 32768,
-		"iS": 4648,
-		"oA": 0,
-		"oAP": "/imgs/fullPage.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/horse.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/imgs/horse.mp3",
-		"oF": 0
-		},
-	"/imgs/horse.ogg": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/imgs/horse.ogg",
-		"oF": 0
-		},
-	"/imgs/intro.png": {
-		"ft": 32768,
-		"iS": 43773,
-		"oA": 0,
-		"oAP": "/imgs/intro.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone-blue.png": {
-		"ft": 32768,
-		"iS": 185858,
-		"oA": 0,
-		"oAP": "/imgs/iphone-blue.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone-green.png": {
-		"ft": 32768,
-		"iS": 181874,
-		"oA": 0,
-		"oAP": "/imgs/iphone-green.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone-red.png": {
-		"ft": 32768,
-		"iS": 192643,
-		"oA": 0,
-		"oAP": "/imgs/iphone-red.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone-two.png": {
-		"ft": 32768,
-		"iS": 389484,
-		"oA": 0,
-		"oAP": "/imgs/iphone-two.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone-yellow.png": {
-		"ft": 32768,
-		"iS": 92586,
-		"oA": 0,
-		"oAP": "/imgs/iphone-yellow.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone1.jpg": {
-		"ft": 16384,
-		"iS": 210074,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/iphone1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/iphone2.png": {
-		"ft": 32768,
-		"iS": 217910,
-		"oA": 0,
-		"oAP": "/imgs/iphone2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone3.png": {
-		"ft": 32768,
-		"iS": 70775,
-		"oA": 0,
-		"oAP": "/imgs/iphone3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/iphone4.png": {
-		"ft": 32768,
-		"iS": 17059,
-		"oA": 0,
-		"oAP": "/imgs/iphone4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/imgs/legaloutreach.png": {
 		"ft": 32768,
 		"iS": 335739,
@@ -616,70 +232,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/imgs/logo-01-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/imgs/logo-01-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/imgs/logo-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/imgs/logo-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/imgs/park.jpg": {
-		"ft": 16384,
-		"iS": 94880,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/park.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/projects-placeholder.jpg": {
-		"ft": 16384,
-		"iS": 4502,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/projects-placeholder.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/rails.jpg": {
-		"ft": 16384,
-		"iS": 90925,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/rails.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/rocks.jpg": {
-		"ft": 16384,
-		"iS": 60093,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/rocks.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/imgs/showoff.gif": {
 		"ft": 4194304,
 		"iS": 784586,
@@ -687,137 +239,6 @@
 		"oAP": "/imgs/showoff.gif",
 		"oF": 0,
 		"opt": 1
-		},
-	"/imgs/skills.jpg": {
-		"ft": 16384,
-		"iS": 119081,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/skills.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/imgs/skills2.jpg": {
-		"ft": 16384,
-		"iS": 54415,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/skills2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/imgs/skills3.jpg": {
-		"ft": 16384,
-		"iS": 53880,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/skills3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/sky.jpg": {
-		"ft": 16384,
-		"iS": 41645,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/sky.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/slider.png": {
-		"ft": 32768,
-		"iS": 3706,
-		"oA": 0,
-		"oAP": "/imgs/slider.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/tablets.png": {
-		"ft": 32768,
-		"iS": 45874,
-		"oA": 0,
-		"oAP": "/imgs/tablets.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/imgs/Tall-Logo-01.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/imgs/Tall-Logo-01.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/imgs/test.jpg": {
-		"ft": 16384,
-		"iS": 26282,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/test.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/test2.jpg": {
-		"ft": 16384,
-		"iS": 157278,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/test2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/traffic.jpg": {
-		"ft": 16384,
-		"iS": 69246,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/traffic.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/tunnel.jpg": {
-		"ft": 16384,
-		"iS": 105827,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/imgs/tunnel.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/imgs/used-by-fullpage.png": {
-		"ft": 32768,
-		"iS": 4889,
-		"oA": 0,
-		"oAP": "/imgs/used-by-fullpage.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,
