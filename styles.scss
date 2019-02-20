@@ -61,24 +61,21 @@ $button-width: 30px;
     color:$color-dark-dark-blue;
     font-weight: 100;
     border-left:none;
-    text-align:center;
+    text-align:left;
     line-height: 1.25em;
     @include media-breakpoint-up(xs) {
-      font-size:13vw;
+      font-size:12.2vw;
     }
     @include media-breakpoint-up(sm) {
       font-size:13vw;
     }
     @include media-breakpoint-up(md) {
         font-size:9vw;
-        text-align:left;
       }
     @include media-breakpoint-up(lg) {
         font-size:7vw;
       }
-      @include media-breakpoint-up(xl) {
-        font-size:7vw;
-      }
+
     cite {
       font-family: 'Roboto', sans-serif;
       color:$color-dark-dark-blue;
@@ -341,7 +338,7 @@ div.vmiddle-content {
    top:25px;
    z-index:500;
    @include media-breakpoint-down(sm) {
-     width:60px;
+     width:50px;
      left:15px;
      top:15px;
    }
@@ -631,6 +628,31 @@ section#header {
     @include media-breakpoint-down(sm) {
       height:400px;
     }
+    &.about-header  {
+      height:450px;
+      background-color:darken($color-dark-dark-blue, 10%);
+      margin-bottom:100px;
+      @include media-breakpoint-down(sm) {
+        height:450px;
+        }
+      h1 {
+        color:white;
+        @include media-breakpoint-up(xs) {
+            font-size:14vw;
+            margin-left:0%;
+          }
+        @include media-breakpoint-up(sm) {
+            font-size:6vw;
+            margin-left: 8.33333337%;
+          }
+        @include media-breakpoint-up(md) {
+            font-size:6vw;
+          }
+        @include media-breakpoint-up(lg) {
+            font-size:5vw;
+          }
+      }
+    }
 }
 .see-our-work p {
   font-family: 'Roboto', serif;
@@ -821,130 +843,6 @@ section#header {
     }
   }
 }
-#skill-list {
-  background-color:darken($color-dark-dark-blue, 10%)!important;
-  @include media-breakpoint-up(xs) {
-  padding:100px 25px;
-  }
-  @include media-breakpoint-up(md) {
-  padding:100px 75px;
-  }
-  .skills-wrapper {
-     margin-bottom:150px;
-     @include media-breakpoint-down(md) {
-      margin-bottom:75px;
-
-     }
-
-
-     display: grid;
-     height:auto;
-     grid-template-rows: auto;
-     align-items: center;
-     grid-template-rows: auto;
-     @include media-breakpoint-down(sm) {
-       display: block;
-       position: relative!important;
-     }
-    &.img-left {
-       grid-template-columns: 3fr 2fr;
-    }
-    &.img-right {
-      grid-template-columns: 2fr 3fr;
-
-    }
-    .image {
-      @include media-breakpoint-up(xs) {
-      display:none;
-      }
-      @include media-breakpoint-up(md) {
-      display:block;
-      }
-
-    }
-    .skill {
-      h2, h3 {
-        color:white!important;
-      }
-      h2 {
-        line-height: 1.2em!important;
-        @include media-breakpoint-up(xs) {
-        font-size:7vw;
-        }
-        @include media-breakpoint-up(md) {
-        font-size:4vw;
-        }
-      }
-      &.copy-right {
-        z-index: 500!important;
-        @include media-breakpoint-up(xs) {
-        margin-left:0%;
-        }
-        @include media-breakpoint-up(md) {
-        margin-left:-45%;
-        padding-right:0px;
-        }
-        @include media-breakpoint-up(lg) {
-        padding-right:150px;
-        }
-      }
-      &.copy-left {
-        margin-right:-55%;
-        z-index: 500;
-        @include media-breakpoint-up(xs) {
-        margin-right:0%;
-        }
-        @include media-breakpoint-up(md) {
-        margin-right:-45%;
-        padding-left:0px;
-        }
-        @include media-breakpoint-up(lg) {
-        padding-left:150px;
-        }
-      }
-    }
-  }
-  .skills-wrapper:last-child{
-    margin-bottom:0px;
-  }
-  h2 {
-    font-family: 'Average', serif!important;
-    color:$color-dark-dark-blue;
-    font-weight: 100;
-    font-size:3.2vw;
-  }
-
-  h3 {
-    font-family: 'Roboto', serif;
-    font-weight:300;
-    color:transparentize($color-dark-dark-blue, .2);
-    font-size:24px;
-    text-align:left;
-    text-transform: uppercase;
-    letter-spacing: .15em;
-    margin-bottom:10px;
-    @include media-breakpoint-up(xs) {
-      font-size:2.7vw;
-
-    }
-    @include media-breakpoint-up(sm) {
-      font-size:2vw;
-
-    }
-
-    @include media-breakpoint-up(md) {
-      font-size:1.1vw;
-
-    }
-    @include media-breakpoint-up(lg) {
-      font-size:20px;
-
-  }
-  }
-  img {
-    z-index:0!important;
-  }
-}
 
   /*Home Page Contact Section*/
   #contact {
@@ -999,33 +897,7 @@ section#header {
       }
     }
 }
-  .skills-summary {
-      width:80%;
-      margin:0px auto;
-      h1, p{
-        text-align: center;
-      }
-      h1 {
-        font-family: 'Roboto', serif;
-        font-size:4vw;
-        line-height: 1em;
-      }
-      p{
-        padding:20px 125px;
-        font-size:24px;
-        font-weight:300;
-        line-height:1.75em;
-      }
-       @include media-breakpoint-down(md) {
-         h1 {
-           font-size:12vw;
-         }
-         p {
-           padding:20px 0px;
-           font-size:16px;
-         }
-       }
-  }
+
 
   h1 {
     position: relative;
@@ -1096,7 +968,44 @@ section#header {
     padding:0px!important;
   }
 }
+#about {
+  h3 {
+  font-family: 'Average', serif!important;
+  color:$color-dark-dark-blue;
+  font-weight: 100;
+  border-left:none;
+  text-align:left;
+  line-height: 1.25em;
+  @include media-breakpoint-up(xs) {
+    font-size:8vw;
+  }
+  @include media-breakpoint-up(sm) {
+    font-size:5vw;
+  }
+  @include media-breakpoint-up(md) {
+      font-size:5vw;
+    }
+  @include media-breakpoint-up(lg) {
+      font-size:3vw;
+    }
+  }
+  h3:nth-child(n+2) {
+    margin-top:75px;
+  }
+}
+#clients {
+  margin:100px 0px 150px 0px;
+}
 
+.color-block {
+  width:75px;
+  display:block;
+  height:8px;
+  margin:75px 0px;
+  &.blue {
+     background: $color-blue;
+  }
+}
 
 
   #project-content {
@@ -1225,6 +1134,11 @@ section#header {
   &:hover {
   }
 }
+.special-text {
+  background: linear-gradient(120deg, darken($color-blue, 2%), lighten($color-blue, 15%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .span {
   text-transform: uppercase;
 	background: linear-gradient(to right, #84fab0 0%, lighten($color-blue, 15%) 100%);
@@ -1251,6 +1165,7 @@ section#header {
     height:70px;
     position: relative;
     width: 100%;
+    margin-top:50px;
     @include media-breakpoint-up(xs) {
     }
     @include media-breakpoint-up(lg) {
@@ -1260,9 +1175,9 @@ div {
   span {
     position: absolute;
     top: 0;
-    left: 50%;
-    width: 35px;
-    height: 35px;
+    left: 10%;
+    width: 30px;
+    height: 30px;
     margin-left: -12px;
     border-left: 1.5px solid $color-dark-blue;
     border-bottom: 1.5px solid $color-dark-blue;
@@ -1275,14 +1190,14 @@ div {
   }
 }
 @include media-breakpoint-up(md) {
-  height:90px;
+  height:70px;
   div {
     span {
   left: 5%;
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   }
-}
+  }
 }
 }
 @-webkit-keyframes sdb05 {

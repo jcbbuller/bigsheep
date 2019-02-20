@@ -30,6 +30,13 @@
 		"oAP": "/.nojekyll",
 		"oF": 0
 		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/css/bootstrap-grid.css": {
 		"aP": 1,
 		"bl": 0,
@@ -122,6 +129,17 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"/imgs/erf_logo.png": {
+		"ft": 32768,
+		"iS": 12101,
+		"oA": 0,
+		"oAP": "/imgs/erf_logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/imgs/evergreen_bg.jpg": {
 		"ft": 16384,
 		"iS": 124419,
@@ -177,6 +195,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/imgs/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1257,
+		"oA": 0,
+		"oAP": "/imgs/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1803,
+		"oA": 0,
+		"oAP": "/imgs/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/imgs/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 3661,
+		"oA": 0,
+		"oAP": "/imgs/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/imgs/legaloutreach.png": {
 		"ft": 32768,
 		"iS": 335739,
@@ -197,6 +248,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/imgs/lo_logo.png": {
+		"ft": 32768,
+		"iS": 12702,
+		"oA": 0,
+		"oAP": "/imgs/lo_logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/imgs/logo-01-01.svg": {
@@ -32668,13 +32730,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/projects.html",
-		"oF": 0
-		},
-	"/skills.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/skills.html",
 		"oF": 0
 		},
 	"/styles.css": {

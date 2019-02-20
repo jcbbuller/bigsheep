@@ -6950,20 +6950,16 @@ extra-bold 800 Italic
   color: #3a4b58;
   font-weight: 100;
   border-left: none;
-  text-align: center;
+  text-align: left;
   line-height: 1.25em;
-  font-size: 13vw; }
+  font-size: 12.2vw; }
   @media (min-width: 576px) {
     #intro h1 {
       font-size: 13vw; } }
   @media (min-width: 768px) {
     #intro h1 {
-      font-size: 9vw;
-      text-align: left; } }
+      font-size: 9vw; } }
   @media (min-width: 992px) {
-    #intro h1 {
-      font-size: 7vw; } }
-  @media (min-width: 1200px) {
     #intro h1 {
       font-size: 7vw; } }
   #intro h1 cite {
@@ -7162,7 +7158,7 @@ div.vmiddle-wrapper {
   z-index: 500; }
   @media (max-width: 767.98px) {
     #logo-container {
-      width: 60px;
+      width: 50px;
       left: 15px;
       top: 15px; } }
   #logo-container .logo-image .st0 {
@@ -7379,6 +7375,27 @@ section#header {
   @media (max-width: 767.98px) {
     section#header {
       height: 400px; } }
+  section#header.about-header {
+    height: 450px;
+    background-color: #263139;
+    margin-bottom: 100px; }
+    @media (max-width: 767.98px) {
+      section#header.about-header {
+        height: 450px; } }
+    section#header.about-header h1 {
+      color: white;
+      font-size: 14vw;
+      margin-left: 0%; }
+      @media (min-width: 576px) {
+        section#header.about-header h1 {
+          font-size: 6vw;
+          margin-left: 8.33333337%; } }
+      @media (min-width: 768px) {
+        section#header.about-header h1 {
+          font-size: 6vw; } }
+      @media (min-width: 992px) {
+        section#header.about-header h1 {
+          font-size: 5vw; } }
 
 .see-our-work p {
   font-family: 'Roboto', serif;
@@ -7516,93 +7533,6 @@ section#header {
           #projects .projects .bottom-text h3 {
             font-size: 12px; } }
 
-#skill-list {
-  background-color: #263139 !important;
-  padding: 100px 25px; }
-  @media (min-width: 768px) {
-    #skill-list {
-      padding: 100px 75px; } }
-  #skill-list .skills-wrapper {
-    margin-bottom: 150px;
-    display: grid;
-    height: auto;
-    grid-template-rows: auto;
-    align-items: center;
-    grid-template-rows: auto; }
-    @media (max-width: 991.98px) {
-      #skill-list .skills-wrapper {
-        margin-bottom: 75px; } }
-    @media (max-width: 767.98px) {
-      #skill-list .skills-wrapper {
-        display: block;
-        position: relative !important; } }
-    #skill-list .skills-wrapper.img-left {
-      grid-template-columns: 3fr 2fr; }
-    #skill-list .skills-wrapper.img-right {
-      grid-template-columns: 2fr 3fr; }
-    #skill-list .skills-wrapper .image {
-      display: none; }
-      @media (min-width: 768px) {
-        #skill-list .skills-wrapper .image {
-          display: block; } }
-    #skill-list .skills-wrapper .skill h2, #skill-list .skills-wrapper .skill h3 {
-      color: white !important; }
-    #skill-list .skills-wrapper .skill h2 {
-      line-height: 1.2em !important;
-      font-size: 7vw; }
-      @media (min-width: 768px) {
-        #skill-list .skills-wrapper .skill h2 {
-          font-size: 4vw; } }
-    #skill-list .skills-wrapper .skill.copy-right {
-      z-index: 500 !important;
-      margin-left: 0%; }
-      @media (min-width: 768px) {
-        #skill-list .skills-wrapper .skill.copy-right {
-          margin-left: -45%;
-          padding-right: 0px; } }
-      @media (min-width: 992px) {
-        #skill-list .skills-wrapper .skill.copy-right {
-          padding-right: 150px; } }
-    #skill-list .skills-wrapper .skill.copy-left {
-      margin-right: -55%;
-      z-index: 500;
-      margin-right: 0%; }
-      @media (min-width: 768px) {
-        #skill-list .skills-wrapper .skill.copy-left {
-          margin-right: -45%;
-          padding-left: 0px; } }
-      @media (min-width: 992px) {
-        #skill-list .skills-wrapper .skill.copy-left {
-          padding-left: 150px; } }
-  #skill-list .skills-wrapper:last-child {
-    margin-bottom: 0px; }
-  #skill-list h2 {
-    font-family: "Average", serif !important;
-    color: #3a4b58;
-    font-weight: 100;
-    font-size: 3.2vw; }
-  #skill-list h3 {
-    font-family: 'Roboto', serif;
-    font-weight: 300;
-    color: rgba(58, 75, 88, 0.8);
-    font-size: 24px;
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: .15em;
-    margin-bottom: 10px;
-    font-size: 2.7vw; }
-    @media (min-width: 576px) {
-      #skill-list h3 {
-        font-size: 2vw; } }
-    @media (min-width: 768px) {
-      #skill-list h3 {
-        font-size: 1.1vw; } }
-    @media (min-width: 992px) {
-      #skill-list h3 {
-        font-size: 20px; } }
-  #skill-list img {
-    z-index: 0 !important; }
-
 /*Home Page Contact Section*/
 #contact {
   color: white; }
@@ -7646,27 +7576,6 @@ section#header {
             font-size: 4vw; } }
       #contact ul li a:hover {
         color: #337ab7; }
-
-.skills-summary {
-  width: 80%;
-  margin: 0px auto; }
-  .skills-summary h1, .skills-summary p {
-    text-align: center; }
-  .skills-summary h1 {
-    font-family: 'Roboto', serif;
-    font-size: 4vw;
-    line-height: 1em; }
-  .skills-summary p {
-    padding: 20px 125px;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.75em; }
-  @media (max-width: 991.98px) {
-    .skills-summary h1 {
-      font-size: 12vw; }
-    .skills-summary p {
-      padding: 20px 0px;
-      font-size: 16px; } }
 
 h1 {
   position: relative;
@@ -7728,6 +7637,38 @@ p {
   margin: 50px 0px; }
   .gallery a {
     padding: 0px !important; }
+
+#about h3 {
+  font-family: "Average", serif !important;
+  color: #3a4b58;
+  font-weight: 100;
+  border-left: none;
+  text-align: left;
+  line-height: 1.25em;
+  font-size: 8vw; }
+  @media (min-width: 576px) {
+    #about h3 {
+      font-size: 5vw; } }
+  @media (min-width: 768px) {
+    #about h3 {
+      font-size: 5vw; } }
+  @media (min-width: 992px) {
+    #about h3 {
+      font-size: 3vw; } }
+
+#about h3:nth-child(n+2) {
+  margin-top: 75px; }
+
+#clients {
+  margin: 100px 0px 150px 0px; }
+
+.color-block {
+  width: 75px;
+  display: block;
+  height: 8px;
+  margin: 75px 0px; }
+  .color-block.blue {
+    background: #337ab7; }
 
 #project-content {
   margin-top: 125px;
@@ -7822,6 +7763,11 @@ p {
   background-position: 0 90%;
   transition: background-size 0.25s ease-in; }
 
+.special-text {
+  background: linear-gradient(120deg, #3175af, #63a0d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 .span {
   text-transform: uppercase;
   background: linear-gradient(to right, #84fab0 0%, #63a0d4 100%);
@@ -7841,13 +7787,14 @@ p {
   overflow: auto;
   height: 70px;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  margin-top: 50px; }
   #scrollarrow div span {
     position: absolute;
     top: 0;
-    left: 50%;
-    width: 35px;
-    height: 35px;
+    left: 10%;
+    width: 30px;
+    height: 30px;
     margin-left: -12px;
     border-left: 1.5px solid #5c7990;
     border-bottom: 1.5px solid #5c7990;
@@ -7858,11 +7805,11 @@ p {
     box-sizing: border-box; }
   @media (min-width: 768px) {
     #scrollarrow {
-      height: 90px; }
+      height: 70px; }
       #scrollarrow div span {
         left: 5%;
-        width: 45px;
-        height: 45px; } }
+        width: 30px;
+        height: 30px; } }
 
 @-webkit-keyframes sdb05 {
   0% {
