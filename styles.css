@@ -7302,9 +7302,6 @@ body {
 .color-highlight-wrapper {
   transition: background .7s ease; }
 
-#featured-projects, #about-bigsheep, #intro {
-  padding: 0 5% 0 5%; }
-
 #featured-projects, #about-bigsheep, #intro, #projects {
   min-height: 100vh;
   display: flex;
