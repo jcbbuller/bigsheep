@@ -329,6 +329,7 @@ h4 {
 div.vmiddle-wrapper {
       display:table;
       height:100%;
+      padding-left:2%;
 div.vmiddle-content {
         display: table-cell;
         vertical-align: middle;
@@ -716,82 +717,79 @@ section#header {
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background-color: $color-dark-blue;
+        background-color: $color-blue;
+        .overlay-text {
+          display:table!important;
+          color: white;
+          position: relative;
+          padding:7% 7% 7% 7%;
+          text-align: left;
+          height:100%;
+          .overlay-text-content {
+            display:table-cell!important;
+            vertical-align: middle!important;
+            p {
+                font-family: 'Roboto', serif;
+                line-height:1.5em;
+                font-size:20px;
+                font-weight:100;
+                color:white;
+            @include media-breakpoint-up(xs) {
+                  font-size:6vw;
+
+                }
+              @include media-breakpoint-up(sm) {
+                  font-size:3vw;
+
+                }
+
+              @include media-breakpoint-up(md) {
+                  font-size:1.8vw;
+
+                }
+              @include media-breakpoint-up(lg) {
+                  font-size:1.7vw;
+                }
+
+            }
+            p.overlay-link {
+              color:lighten($color-blue, 65%);
+              font-family: 'Roboto', serif;
+              text-transform: uppercase;
+              font-weight:400;
+              letter-spacing: .05em;
+              font-size:12px;
+              position:absolute;
+              bottom:5%;
+              left:25px;
+            @include media-breakpoint-up(xs) {
+                font-size:3vw;
+              }
+            @include media-breakpoint-up(sm) {
+                font-size:1.8vw;
+
+              }
+            @include media-breakpoint-up(md) {
+                font-size:1.1vw;
+              }
+            @include media-breakpoint-up(lg) {
+                font-size:12px;
+              }
+            }
+
+          }
+        }
       }
 
-      .thumbnail:hover .project-overlay {
+      a:hover .project-overlay {
         opacity: 1;
       }
-
-      .overlay-text {
-        color: white;
-        position: relative;
-        padding:7% 7% 7% 7%;
-        text-align: left;
-        /*top: 50%;
-        left: 45%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;*/
-        h4 {
-            font-family: 'Roboto', serif;
-            line-height:1.5em;
-            font-size:20px;
-            font-weight:100;
-        @include media-breakpoint-up(xs) {
-              font-size:6vw;
-
-            }
-          @include media-breakpoint-up(sm) {
-              font-size:3vw;
-
-            }
-
-          @include media-breakpoint-up(md) {
-              font-size:1.8vw;
-
-            }
-          @include media-breakpoint-up(lg) {
-              font-size:1.7vw;
-            }
-
-        }
-        p {
-          color:white;
-          font-family: 'Roboto', serif;
-          font-weight:200;
-        }
+      a:hover {
+        text-decoration: none!important;
 
       }
-      a {
-        color:lighten($color-blue, 25%);
-        font-family: 'Roboto', serif;
-        text-transform: uppercase;
-        font-weight:400;
-        letter-spacing: .05em;
-        font-size:12px;
-        display:block;
-        position: absolute;
-        left:7%;
-        bottom:15%;
-      @include media-breakpoint-up(xs) {
-          font-size:3vw;
 
-        }
-      @include media-breakpoint-up(sm) {
-          font-size:1.8vw;
 
-        }
-
-      @include media-breakpoint-up(md) {
-          font-size:1.1vw;
-
-        }
-      @include media-breakpoint-up(lg) {
-          font-size:12px;
-        }
-      }
 
       .bottom-text {
         padding:0% 7% 7% 7%;

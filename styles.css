@@ -7247,7 +7247,8 @@ h4 {
 
 div.vmiddle-wrapper {
   display: table;
-  height: 100%; }
+  height: 100%;
+  padding-left: 2%; }
   div.vmiddle-wrapper div.vmiddle-content {
     display: table-cell;
     vertical-align: middle; }
@@ -7540,60 +7541,57 @@ section#header {
       width: 100%;
       opacity: 0;
       transition: .5s ease;
-      background-color: #5c7990; }
-    #projects .projects .thumbnail:hover .project-overlay {
-      opacity: 1; }
-    #projects .projects .overlay-text {
-      color: white;
-      position: relative;
-      padding: 7% 7% 7% 7%;
-      text-align: left;
-      /*top: 50%;
-        left: 45%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;*/ }
-      #projects .projects .overlay-text h4 {
-        font-family: 'Roboto', serif;
-        line-height: 1.5em;
-        font-size: 20px;
-        font-weight: 100;
-        font-size: 6vw; }
-        @media (min-width: 576px) {
-          #projects .projects .overlay-text h4 {
-            font-size: 3vw; } }
-        @media (min-width: 768px) {
-          #projects .projects .overlay-text h4 {
-            font-size: 1.8vw; } }
-        @media (min-width: 992px) {
-          #projects .projects .overlay-text h4 {
-            font-size: 1.7vw; } }
-      #projects .projects .overlay-text p {
+      background-color: #337ab7; }
+      #projects .projects .project-overlay .overlay-text {
+        display: table !important;
         color: white;
-        font-family: 'Roboto', serif;
-        font-weight: 200; }
-    #projects .projects a {
-      color: #8bb8df;
-      font-family: 'Roboto', serif;
-      text-transform: uppercase;
-      font-weight: 400;
-      letter-spacing: .05em;
-      font-size: 12px;
-      display: block;
-      position: absolute;
-      left: 7%;
-      bottom: 15%;
-      font-size: 3vw; }
-      @media (min-width: 576px) {
-        #projects .projects a {
-          font-size: 1.8vw; } }
-      @media (min-width: 768px) {
-        #projects .projects a {
-          font-size: 1.1vw; } }
-      @media (min-width: 992px) {
-        #projects .projects a {
-          font-size: 12px; } }
+        position: relative;
+        padding: 7% 7% 7% 7%;
+        text-align: left;
+        height: 100%; }
+        #projects .projects .project-overlay .overlay-text .overlay-text-content {
+          display: table-cell !important;
+          vertical-align: middle !important; }
+          #projects .projects .project-overlay .overlay-text .overlay-text-content p {
+            font-family: 'Roboto', serif;
+            line-height: 1.5em;
+            font-size: 20px;
+            font-weight: 100;
+            color: white;
+            font-size: 6vw; }
+            @media (min-width: 576px) {
+              #projects .projects .project-overlay .overlay-text .overlay-text-content p {
+                font-size: 3vw; } }
+            @media (min-width: 768px) {
+              #projects .projects .project-overlay .overlay-text .overlay-text-content p {
+                font-size: 1.8vw; } }
+            @media (min-width: 992px) {
+              #projects .projects .project-overlay .overlay-text .overlay-text-content p {
+                font-size: 1.7vw; } }
+          #projects .projects .project-overlay .overlay-text .overlay-text-content p.overlay-link {
+            color: white;
+            font-family: 'Roboto', serif;
+            text-transform: uppercase;
+            font-weight: 400;
+            letter-spacing: .05em;
+            font-size: 12px;
+            position: absolute;
+            bottom: 5%;
+            left: 25px;
+            font-size: 3vw; }
+            @media (min-width: 576px) {
+              #projects .projects .project-overlay .overlay-text .overlay-text-content p.overlay-link {
+                font-size: 1.8vw; } }
+            @media (min-width: 768px) {
+              #projects .projects .project-overlay .overlay-text .overlay-text-content p.overlay-link {
+                font-size: 1.1vw; } }
+            @media (min-width: 992px) {
+              #projects .projects .project-overlay .overlay-text .overlay-text-content p.overlay-link {
+                font-size: 12px; } }
+    #projects .projects a:hover .project-overlay {
+      opacity: 1; }
+    #projects .projects a:hover {
+      text-decoration: none !important; }
     #projects .projects .bottom-text {
       padding: 0% 7% 7% 7%; }
       #projects .projects .bottom-text h2 {
