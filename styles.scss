@@ -368,7 +368,7 @@ div.vmiddle-content {
  .dark-nav {
    .button_container {
      span {
-       background:$color-dark-dark-blue;
+       background:$color-blue;
      }
    }
  }
@@ -389,17 +389,13 @@ div.vmiddle-content {
     color:lighten($color-blue, 25%);
 
   }
-  .project-title {
-    padding-top:200px;
-  }
   @include media-breakpoint-down(md) {
     h1 {
       font-size:6.5vw;
     }
   }
   @include media-breakpoint-down(sm) {
-  padding-left:4%;
-  padding-top:125px;
+      padding-left:4%;
       h1 {
         font-size:8vw;
       }
@@ -631,6 +627,7 @@ section#header {
     @include media-breakpoint-down(sm) {
       height:400px;
     }
+
     &.about-header  {
       height:450px;
       background-color:darken($color-dark-dark-blue, 10%);

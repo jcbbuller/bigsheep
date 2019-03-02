@@ -7275,7 +7275,7 @@ div.vmiddle-wrapper {
 
 /* HEAD LOGO / NAV - HOME */
 .dark-nav .button_container span {
-  background: #3a4b58; }
+  background: #337ab7; }
 
 .project-title {
   padding-left: 7%; }
@@ -7289,15 +7289,12 @@ div.vmiddle-wrapper {
     text-transform: uppercase;
     letter-spacing: .15em;
     color: #8bb8df; }
-  .project-title .project-title {
-    padding-top: 200px; }
   @media (max-width: 991.98px) {
     .project-title h1 {
       font-size: 6.5vw; } }
   @media (max-width: 767.98px) {
     .project-title {
-      padding-left: 4%;
-      padding-top: 125px; }
+      padding-left: 4%; }
       .project-title h1 {
         font-size: 8vw; } }
   @media (max-width: 575.98px) {
